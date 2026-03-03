@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/scss/bootstrap";
+
+// Breakpoints solicitados
+$min-mobile: 375px;
+$min-desktop: 1440px;
+
+@media (min-width: $min-mobile) {
+  /* Estilos base para mobile */
+}
+
+@media (min-width: $min-desktop) {
+  /* Estilos específicos para desktop */
+}

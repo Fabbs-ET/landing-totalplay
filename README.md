@@ -1,27 +1,28 @@
-# LandingTotalplay
+# Landing Totalplay
+Proyecto desarrollado en **Angular** con **Bootstrap 5**.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Especificaciones Técnicas
+- **Mobile Breakpoint:** 375px
+- **Desktop Breakpoint:** 1440px
+- **Framework UI:** Bootstrap 5.3+
 
 ## Code scaffolding
-
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Comandos Rápidos
+1. Asegúrate de tener instalado Node.js y el Angular CLI de forma global.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Clona el repositorio e instala las dependencias necesarias:
+- git clone https://github.com/Fabbs-ET/landing-totalplay.git
+- cd landing-totalplay
+- **Instalar:** `npm install`
+3. Para levantar el servidor de desarrollo, ejecuta:
+- **Desarrollo:** `ng serve`
+- Navega a http://localhost:4200/. La aplicación se actualizará automáticamente ante cualquier cambio en el código fuente.
 
-## Running unit tests
+4. Para generar los archivos de producción en la carpeta dist/:
+- **Build del proyecto:** `ng build --base-href /landing-totalplay/`
+- **Despliegue a GitHub Pages:** `npx gh-pages -d dist/landing-totalplay`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Demo
+[Ver Proyecto en Vivo](https://Fabbs-ET.github.io/landing-totalplay/)

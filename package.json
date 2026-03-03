@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --base-href /landing-totalplay/ && npx gh-pages -d dist/landing-totalplay"
   },
   "private": true,
   "dependencies": {

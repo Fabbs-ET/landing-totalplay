@@ -22,7 +22,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 4. Para generar los archivos de producción en la carpeta dist/:
 - **Build del proyecto:** `ng build --base-href /landing-totalplay/`
-- **Despliegue a GitHub Pages:** `npx gh-pages -d dist/landing-totalplay`
+- **Despliegue a GitHub Pages (Windows/macOS):** 
+`npx gh-pages -d dist/landing-totalplay`
 
 ## Demo
 [Ver Proyecto en Vivo](https://Fabbs-ET.github.io/landing-totalplay/)

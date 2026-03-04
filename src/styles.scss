@@ -1,4 +1,5 @@
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 // Breakpoints solicitados
 $min-mobile: 375px;
@@ -22,6 +23,19 @@ $container-max-width: (
 );
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;  //Evita scroll horizontal en mobile
+}
+
+$primary-purple: #6E26FF;
+$text-black: #000000;
+$text-gray: #585858;
+$bg-light: #F1F1F1;
+
+:root {
+  --bs-body-font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: $bg-light;
 }

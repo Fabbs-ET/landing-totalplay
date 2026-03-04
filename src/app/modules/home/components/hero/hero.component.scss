@@ -1,0 +1,90 @@
+.hero-section {
+    background-color: #F1F1F1;
+}
+
+.hero-section-2 {
+    background-color: #F3F5FF;
+}
+
+.hero-title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #000000;
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: #585858;
+    line-height: 100%;
+}
+
+.btn-cta {
+    width: 288px;
+    height: 62px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+        background-color: #333;
+    }
+}
+
+.btn-more {
+    width: 318px;
+    height: 48px;
+    border-radius: 15px;
+    border: solid 1px #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+        background-color: #FFFFFF;
+    }
+}
+
+// Paginación (Dots)
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+
+    &.active {
+        background-color: #000000;
+    }
+}
+
+.style-dots {
+    width: 167px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+/* Responsividad para Mobile (375px) */
+@media (max-width: 375px) {
+    .hero-title {
+        font-size: 32px;
+        padding: 0 15px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .btn-cta {
+        width: 220px;
+        height: 50px;
+        font-size: 18px;
+    }
+}

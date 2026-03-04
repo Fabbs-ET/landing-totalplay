@@ -4,19 +4,24 @@
 $min-mobile: 375px;
 $min-desktop: 1440px;
 
-@media (min-width: $min-mobile) {
-  body::before {
-    content: "Mobile View (375px)";
-    display: block;
-    background: #ff0000 !important;
-    color: white;
-    text-align: center;
-  }
-}
+$grid-breakpoints: (
+  xs: 0,
+  sm: 375px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px
+);
 
-@media (min-width: $min-desktop) {
-  body::before {
-    content: "Desktop View (1440px)";
-    background: #00ff00 !important;
-  }
+$container-max-width: (
+  sm: 340px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;  //Evita scroll horizontal en mobile
 }
